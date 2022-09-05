@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Design_Patterns
+/.vs/ProjectEvaluation
+/Behavioral_Design_Pattern/bin/Debug/net6.0
+/Behavioral_Design_Pattern/obj/Debug/net6.0/ref
+/Behavioral_Design_Pattern/obj/Debug/net6.0/refint
+/Behavioral_Design_Pattern/obj/Debug/net6.0
+/Behavioral_Design_Pattern/obj
+/Creationnal_Design_Patterns/bin/Debug/net6.0
+/Creationnal_Design_Patterns/obj
+/Creationnal_Design_Patterns_Tests_Units/bin/Debug/net6.0
+/Creationnal_Design_Patterns_Tests_Units/obj
+/Design_Patterns_Test/bin/Debug/net6.0
+/Design_Patterns_Test/obj
+/Structural_Design_Patterns/obj

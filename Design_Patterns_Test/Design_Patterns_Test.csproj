@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Behavioral_Design_Pattern\Behavioral_Design_Pattern.csproj" />
+    <ProjectReference Include="..\Creationnal_Design_Patterns\Creationnal_Design_Patterns.csproj" />
+  </ItemGroup>
+
+</Project>
