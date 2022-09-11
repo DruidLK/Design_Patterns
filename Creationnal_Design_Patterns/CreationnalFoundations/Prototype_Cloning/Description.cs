@@ -12,5 +12,8 @@
         //used if ur creation of object is expensive
 
         //it is not a reference check it assumes a deepclone 
+
+        //15. Prototype Specify the kinds of objects to create using a
+        //prototypical instance, and create new objects by copying this prototype.
     }
 }

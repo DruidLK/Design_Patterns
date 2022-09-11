@@ -7,5 +7,8 @@
 
         //abstract factory abstract away and encapsulate the creation of the object
         //for simple usage
+
+        //12. Abstract Factory Provide an interface for creating families of
+        //related or dependent objects without specifying their concrete classes.
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using Behavioral_Design_Pattern.StructuralFoundations.Decorator.Example_1.Before.Strategy.DomainService.Extensions;
 using Structural_Design_Patterns.StructuralFoundations.Decorator.After.Domain.Base;
 using Structural_Design_Patterns.StructuralFoundations.Decorator.After.Domain.Extensions;
 

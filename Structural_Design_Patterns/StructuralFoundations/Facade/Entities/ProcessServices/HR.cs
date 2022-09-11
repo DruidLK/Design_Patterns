@@ -1,7 +1,7 @@
-﻿using Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities;
-using Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities.FoundationServices;
+﻿using Structural_Design_Patterns.StructuralFoundations.Facade.Entities;
+using Structural_Design_Patterns.StructuralFoundations.Facade.Entities.FoundationServices;
 
-namespace Behavioral_Design_Pattern.Facade.Entities.ProcessServices
+namespace Structural_Design_Patterns.Facade.Entities.ProcessServices
 {
     public sealed class HR
     {

@@ -1,4 +1,4 @@
-﻿namespace Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities
+﻿namespace Structural_Design_Patterns.StructuralFoundations.Facade.Entities
 {
     public sealed class Employee
     {

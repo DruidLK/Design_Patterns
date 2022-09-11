@@ -16,5 +16,8 @@
 
         //Example 1: let us assume we have a car, from this car (onion) we want to add extension (decorate the onion)
         //the wheels/weopen/armor changes depending on the added extension
+
+        //20. Decorator:Attach additional responsibilities to an object dynamically.
+        //Decorators provide a flexible alternative to subclassing for extending functionality.
     }
 }

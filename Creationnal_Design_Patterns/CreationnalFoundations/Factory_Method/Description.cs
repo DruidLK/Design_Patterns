@@ -14,5 +14,9 @@
 
         // the problem with this factory is that u can only create
         // specific style store and cannot create other styles.
+
+        //14. Factory MethodDefine an interface for creating an object,
+        //but let the subclasses decide which class to instantiate.
+        //Factory Method lets a class defer instantiation to subclasses.
     }
 }

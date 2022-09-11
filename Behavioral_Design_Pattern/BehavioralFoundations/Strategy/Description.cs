@@ -10,5 +10,9 @@
         // the instantiating of the class will make the hero regular
         // and the changing of the power is done through a method
         // since the constructor is private
+
+        //9. Strategy Defines a family of algorithms, encapsulates each one,
+        //and make them interchangeable.Strategy lets the algorithm vary independently
+        //from clients who use it.
     }
 }

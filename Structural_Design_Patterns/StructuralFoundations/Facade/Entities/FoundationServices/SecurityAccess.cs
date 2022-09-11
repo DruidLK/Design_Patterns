@@ -1,4 +1,4 @@
-﻿namespace Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities.FoundationServices
+﻿namespace Structural_Design_Patterns.StructuralFoundations.Facade.Entities.FoundationServices
 {
     public sealed class SecurityAccess
     {
