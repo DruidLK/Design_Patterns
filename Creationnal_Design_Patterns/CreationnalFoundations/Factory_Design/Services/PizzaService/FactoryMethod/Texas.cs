@@ -9,7 +9,7 @@ namespace Creationnal_Design_Patterns.CreationnalFoundations.Factory_Design.Serv
     public sealed class Texas : PizzaStore
     {
         public Texas()
-            :this(new TexasFactory())
+            : this(new TexasFactory())
         { }
         public Texas(IPizzaFactory pizzaFactory)
             : base(pizzaFactory)

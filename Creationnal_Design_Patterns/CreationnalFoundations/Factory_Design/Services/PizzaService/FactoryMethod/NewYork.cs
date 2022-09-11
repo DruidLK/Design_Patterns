@@ -9,7 +9,7 @@ namespace Creationnal_Design_Patterns.CreationnalFoundations.Factory_Design.Serv
     public sealed class NewYork : PizzaStore
     {
         public NewYork()
-            :this(new NewYorkFactory())
+            : this(new NewYorkFactory())
         { }
 
         public NewYork(IPizzaFactory pizzaFactory)

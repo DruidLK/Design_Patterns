@@ -1,4 +1,5 @@
-﻿using Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities.FoundationServices;
+﻿using Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities;
+using Behavioral_Design_Pattern.BehavioralFoundations.Facade.Entities.FoundationServices;
 
 namespace Behavioral_Design_Pattern.Facade.Entities.ProcessServices
 {
