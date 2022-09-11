@@ -1,6 +1,4 @@
-﻿using System;
-using Structural_Design_Patterns.StructuralFoundations.Decorator.After.Domain.Base;
-using Structural_Design_Patterns.StructuralFoundations.Decorator.After.Domain.Extensions;
+﻿using Creationnal_Design_Patterns.CreationnalFoundations.Singleton.Brokers;
 
 namespace Design_Patterns_Test
 {
@@ -8,12 +6,12 @@ namespace Design_Patterns_Test
     {
         static void Main(string[] args)
         {
+            var twitterBroker = TwitterBroker.TwitterBrokerInstance;
+            twitterBroker.Timeout = 10;
 
-            var car_1 = new RaceCar(new ArmorCar(new Car()));
+            var twitterBroker_2 = TwitterBroker.TwitterBrokerInstance;
+            System.Console.WriteLine(twitterBroker_2.Timeout);
 
-            Console.WriteLine(car_1.Drive);
-            Console.WriteLine(car_1.Attack);
-            Console.WriteLine(car_1.Armor);
         }
     }
 }
