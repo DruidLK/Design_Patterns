@@ -2,10 +2,10 @@
 {
     internal class Description
     {
-       // 10. Template Method Define a skeleton of
-       // an algorithm in an operation, deferring some steps
-       // to subclasses.Template Method lets subclasses redefine
-       // certain steps of an algorithm without changing the algorithms structure.
+        // 10. Template Method Define a skeleton of
+        // an algorithm in an operation, deferring some steps
+        // to subclasses.Template Method lets subclasses redefine
+        // certain steps of an algorithm without changing the algorithms structure.
 
         //example: we have a pizza store
         //  order pizza

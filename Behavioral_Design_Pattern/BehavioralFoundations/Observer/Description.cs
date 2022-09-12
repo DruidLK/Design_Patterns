@@ -11,7 +11,7 @@
         // of dependent objects are updated automatically.
         //It should be possible that one object can notify an open-ended number of other objects.
 
-        
+
         //7. Observer Define a one-to-many dependency between objects
         //so that when one object changes state, all its dependents are notified and updated automatically.
     }
