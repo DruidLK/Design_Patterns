@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creationnal_Design_Patterns
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral_Design_Pattern", "Behavioral_Design_Pattern\Behavioral_Design_Pattern.csproj", "{D2E314A0-3E82-4916-90E9-A351697F8DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural_Design_Patterns", "Structural_Design_Patterns\Structural_Design_Patterns.csproj", "{EA54E36E-9065-4080-96D8-774FE30FA4BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural_Design_Patterns", "Structural_Design_Patterns\Structural_Design_Patterns.csproj", "{EA54E36E-9065-4080-96D8-774FE30FA4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

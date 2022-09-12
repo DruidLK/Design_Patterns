@@ -1,4 +1,5 @@
-﻿using Creationnal_Design_Patterns.CreationnalFoundations.Singleton.Brokers;
+﻿using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Domain.Entities.HouseTypes;
+using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Services;
 
 namespace Design_Patterns_Test
 {
@@ -6,12 +7,9 @@ namespace Design_Patterns_Test
     {
         static void Main(string[] args)
         {
-            var twitterBroker = TwitterBroker.TwitterBrokerInstance;
-            twitterBroker.Timeout = 10;
+            var house = new HouseCreator(new Garden()).ConstructHouse();
 
-            var twitterBroker_2 = TwitterBroker.TwitterBrokerInstance;
-            System.Console.WriteLine(twitterBroker_2.Timeout);
-
+            System.Console.WriteLine(house.HasGarden);
         }
     }
 }
