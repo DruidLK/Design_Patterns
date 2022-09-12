@@ -1,4 +1,5 @@
-﻿using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Domain.Entities.HouseTypes;
+﻿using System;
+using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Domain.Entities.HouseTypes;
 using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Services;
 
 namespace Design_Patterns_Test
@@ -9,7 +10,7 @@ namespace Design_Patterns_Test
         {
             var house = new HouseCreator(new Garden()).ConstructHouse();
 
-            System.Console.WriteLine(house.HasGarden);
+            Console.WriteLine(house.HasGarden);
         }
     }
 }
