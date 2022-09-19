@@ -1,6 +1,6 @@
 ﻿using System;
-using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Domain.Entities.HouseTypes;
-using Creationnal_Design_Patterns.CreationnalFoundations.Builder.After.Services;
+using Structural_Design_Patterns.StructuralFoundations.Proxy.Domain;
+using Structural_Design_Patterns.StructuralFoundations.Proxy.Domain.Ships.ShipsTypes;
 
 namespace Design_Patterns_Test
 {
@@ -8,9 +8,11 @@ namespace Design_Patterns_Test
     {
         static void Main(string[] args)
         {
-            var house = new HouseCreator(new Garden()).ConstructHouse();
+            var ship = new Ship(Name: "fadi");
 
-            Console.WriteLine(house.HasGarden);
+            ship.ShipName(ShipsType.UFO);
+
+            Console.WriteLine(ship.Name);
         }
     }
 }
